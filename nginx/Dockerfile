@@ -8,7 +8,7 @@ RUN apk add --no-cache \
 
 LABEL org.opencontainers.image.authors="Wojciech Dziedzic"
 
-ADD default.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/nginx.conf
 #COPY ../data/index.php /usr/share/nginx/html/index.php
 
 EXPOSE 6666
