@@ -10,12 +10,12 @@ services:
     container_name: nginx
     restart: unless-stopped
     volumes:
-      - ./data/:/var/www/html/  # Mapowanie katalogu lokalnego na katalog wewnątrz kontenera Nginx
+      - ./data/:/var/www/html  # Mapowanie katalogu lokalnego na katalog wewnątrz kontenera Nginx
       - ./logs/nginx_log:/var/log/nginx/  # Mapowanie katalogu lokalnego na katalog z logami Nginx
     depends_on:
       - php-fpm  # Wymaga uruchomienia usługi php-fpm przed uruchomieniem Nginx
     links:
-      - "php-fpm"  # Tworzenie połączenia sieciowego pomiędzy Nginx a php-fpm
+      - php-fpm  # Tworzenie połączenia sieciowego pomiędzy Nginx a php-fpm
     ports:
       - 6666:80  # Mapowanie portu 6666 na port 80 wewnątrz kontenera Nginx
     networks:
@@ -56,9 +56,9 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=mysql  # Ustawienie hosta bazy danych MySQL dla PhpMyAdmin
-      - MYSQL_ROOT_PASSWORD=root  # Ustawienie hasła dla konta root w MySQL dla PhpMyAdmin
-      - MYSQL_USER=user  # Utworzenie nowego użytkownika MySQL dla PhpMyAdmin
-      - MYSQL_PASSWORD=password  # Ustawienie hasła dla użytkownika MySQL dla PhpMyAdmin
+      #- MYSQL_ROOT_PASSWORD=root  # Ustawienie hasła dla konta root w MySQL dla PhpMyAdmin
+      #- MYSQL_USER=user  # Utworzenie nowego użytkownika MySQL dla PhpMyAdmin
+      #- MYSQL_PASSWORD=password  # Ustawienie hasła dla użytkownika MySQL dla PhpMyAdmin
     depends_on:
       - mysql  # Wymaga uruchomienia usługi MySQL przed uruchomieniem PhpMyAdmin
     links:
