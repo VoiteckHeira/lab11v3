@@ -1,4 +1,5 @@
 # lab11v3
+
 <hr/>
 komenda do uruchomienia:<br/>
 ` 
@@ -34,7 +35,7 @@ oraz wolumen data, w którym znajduje się plik index.php
 
 Reprezentacja graficzna <br/>
 https://blog.baslijten.com/how-to-visualize-your-docker-composition/ <br/>
-komendę odpalamy znajdując się w folderze z docker-compose.yml
+komendę odpalamy znajdując się w folderze z docker-compose.yml <br/>
 komenda:<br/>
 `
 docker run --rm -it --name dcv -v ${PWD}:/input pmsipilot/docker-compose-viz render -m image docker-compose.yml --output-file=tch_lab11_wizualizacja.png --force 
