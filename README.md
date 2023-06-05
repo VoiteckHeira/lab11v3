@@ -1,11 +1,11 @@
 # lab11v3
-
+<hr>
 komenda do uruchomienia:
 `docker compose up -d --build`
-
+<hr>
 komenda do zatrzymania i usunięcia kontenerów:
 `docker compose down`
-
+<hr>
 Port 6666 jest domyślnie zastrzerzony
 Odblokowanie portu 6666:
 https://thegeekpage.com/err-unsafe-port/
@@ -13,6 +13,9 @@ https://thegeekpage.com/err-unsafe-port/
 wyświetlana strona:<br/>
 ![image](https://github.com/VoiteckHeira/lab11v3/assets/91530837/561b9ca7-d8a8-4b5d-ba6d-25802b5e57f9)
 
+<hr>
+dodany jest również wolumen z logami z kontenerów, głównie do testów
+oraz wolumen data, w którym znajduje się plik index.php
 
 Reprezentacja graficzna <br/>
 https://blog.baslijten.com/how-to-visualize-your-docker-composition/ <br/>
@@ -24,3 +27,26 @@ docker run --rm -it --name dcv -v ${PWD}:/input pmsipilot/docker-compose-viz ren
 <br/>
 wynik:<br/>
  ![tch_lab11_wizualizacja](https://github.com/VoiteckHeira/lab11v3/assets/91530837/efb7de20-fe80-4463-ba11-bd930e778cc9)
+<hr>
+
+drzewo plików:
+├── data
+│   └── index.php
+├── logs
+│   ├── mysql_log
+│   ├── nginx_log
+│   │   ├── access.log
+│   │   └── error.log
+│   ├── php_log
+│   └── phpmyadmin_log
+├── mysql
+│   └── Dockerfile
+├── nginx
+│   ├── default.conf
+│   └── Dockerfile
+├── php
+│   └── Dockerfile
+├── phpmyadmin
+│   └── Dockerfile
+│
+└── docker-compose.yml
