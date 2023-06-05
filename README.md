@@ -1,11 +1,11 @@
 # lab11v3
 <hr/>
-komenda do uruchomienia:
-``` bash
+komenda do uruchomienia:<br/>
+```
 docker compose up -d --build
 ```
 <hr/>
-komenda do zatrzymania i usunięcia kontenerów:
+komenda do zatrzymania i usunięcia kontenerów:<br/>
 ```
 docker compose down
 ```
