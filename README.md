@@ -10,7 +10,17 @@ komenda do zatrzymania i usunięcia kontenerów:<br/>
 docker compose down 
 `
 <hr/>
-Port 6666 jest domyślnie zastrzerzony
+Uruchomienie usług w przeglądarce:
+Serwer nginx ze stroną:<br/>
+`
+http://localhost:6666/ 
+`
+phpmyadmin: <br/>
+`
+http://localhost:6001/
+`
+<hr/>
+Port 6666 jest domyślnie zastrzeżony
 Odblokowanie portu 6666:
 https://thegeekpage.com/err-unsafe-port/
 
