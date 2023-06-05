@@ -33,12 +33,6 @@ drzewo plików: <br/>
 ├── data <br/>
 │   └── index.php<br/>
 ├── logs<br/>
-│   ├── mysql_log<br/>
-│   ├── nginx_log<br/>
-│   │   ├── access.log<br/>
-│   │   └── error.log<br/>
-│   ├── php_log<br/>
-│   └── phpmyadmin_log<br/>
 ├── mysql<br/>
 │   └── Dockerfile<br/>
 ├── nginx<br/>
