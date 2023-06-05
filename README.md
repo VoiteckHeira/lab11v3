@@ -26,7 +26,7 @@ https://blog.baslijten.com/how-to-visualize-your-docker-composition/ <br/>
 komendę odpalamy znajdując się w folderze z docker-compose.yml
 komenda:<br/>
 `
-docker run --rm -it --name dcv -v ${PWD}:/input pmsipilot/docker-compose-viz render -m image docker-compose.yml --output-file=achmea.techday.png --force 
+docker run --rm -it --name dcv -v ${PWD}:/input pmsipilot/docker-compose-viz render -m image docker-compose.yml --output-file=tch_lab11_wizualizacja.png --force 
 `
 <br/>
 wynik:<br/>
