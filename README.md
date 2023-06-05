@@ -1,14 +1,14 @@
 # lab11v3
 <hr>
 komenda do uruchomienia:
-`
+```
 docker compose up -d --build
-`
+```
 <hr>
 komenda do zatrzymania i usunięcia kontenerów:
-`
+```
 docker compose down
-`
+```
 <hr>
 Port 6666 jest domyślnie zastrzerzony
 Odblokowanie portu 6666:
