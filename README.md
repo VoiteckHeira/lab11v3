@@ -2,12 +2,12 @@
 <hr/>
 komenda do uruchomienia:<br/>
 ` 
-docker compose up -d --build
+docker compose up -d --build 
 `
 <hr/>
 komenda do zatrzymania i usunięcia kontenerów:<br/>
 ` 
-docker compose down
+docker compose down 
 `
 <hr/>
 Port 6666 jest domyślnie zastrzerzony
