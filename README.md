@@ -15,6 +15,7 @@ Serwer nginx ze stroną:<br/>
 `
 http://localhost:6666/ 
 `
+<br/>
 phpmyadmin: <br/>
 `
 http://localhost:6001/
