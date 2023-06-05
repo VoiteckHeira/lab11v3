@@ -12,13 +12,13 @@ docker compose down
 <hr/>
 Uruchomienie usług w przeglądarce:
 Serwer nginx ze stroną:<br/>
-`
-http://localhost:6666/ 
+` 
+http://localhost:6666/  
 `
 <br/>
 phpmyadmin: <br/>
-`
-http://localhost:6001/
+` 
+http://localhost:6001/ 
 `
 <hr/>
 Port 6666 jest domyślnie zastrzeżony
