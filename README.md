@@ -29,24 +29,24 @@ wynik:<br/>
  ![tch_lab11_wizualizacja](https://github.com/VoiteckHeira/lab11v3/assets/91530837/efb7de20-fe80-4463-ba11-bd930e778cc9)
 <hr>
 
-drzewo plików:
-├── data
-│   └── index.php
-├── logs
-│   ├── mysql_log
-│   ├── nginx_log
-│   │   ├── access.log
-│   │   └── error.log
-│   ├── php_log
-│   └── phpmyadmin_log
-├── mysql
-│   └── Dockerfile
-├── nginx
-│   ├── default.conf
-│   └── Dockerfile
-├── php
-│   └── Dockerfile
-├── phpmyadmin
-│   └── Dockerfile
-│
-└── docker-compose.yml
+drzewo plików: <br/>
+├── data <br/>
+│   └── index.php<br/>
+├── logs<br/>
+│   ├── mysql_log<br/>
+│   ├── nginx_log<br/>
+│   │   ├── access.log<br/>
+│   │   └── error.log<br/>
+│   ├── php_log<br/>
+│   └── phpmyadmin_log<br/>
+├── mysql<br/>
+│   └── Dockerfile<br/>
+├── nginx<br/>
+│   ├── default.conf<br/>
+│   └── Dockerfile<br/>
+├── php<br/>
+│   └── Dockerfile<br/>
+├── phpmyadmin<br/>
+│   └── Dockerfile<br/>
+│<br/>
+└── docker-compose.yml<br/>
